@@ -16,8 +16,8 @@ improv_serial:
 
 
 substitutions:
-  name: tagreader
-  friendly_name: TagReader
+  name: rfid-1
+  friendly_name: rfid-1
 
 esphome:
   name: $name
