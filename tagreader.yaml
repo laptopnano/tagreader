@@ -1,7 +1,8 @@
 # Insert your SSID and Your PWD after inital setup
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+# networks:
+#    - ssid: 'REPLACEME'          # Enter your WiFi SSID here. Example: `ssid: 'your_network_name'`
+#      password: 'REPLACEME'      # Enter your wifi password here. Example: `password: 'abcde123456'`
   ap:
     ssid: ${name}
 
